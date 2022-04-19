@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #2f2e42;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -15,11 +15,11 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 48px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 96px;
 }
 
 h3 {
@@ -40,16 +40,6 @@ p {
 
 .navigation-links a {
   margin: 20px;
-}
-
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
 }
 
 .secondary-link {
